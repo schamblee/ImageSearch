@@ -50,7 +50,6 @@ class ViewController: UIViewController, UISearchBarDelegate {
                         }
                     }
                 }
-                            
             }
         }) {(operation:URLSessionDataTask?, error:Error) in
                 print("Error: " + error.localizedDescription)
